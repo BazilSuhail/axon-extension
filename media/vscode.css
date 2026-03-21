@@ -1,0 +1,87 @@
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-font-family);
+	font-weight: var(--vscode-font-weight);
+	font-size: var(--vscode-font-size);
+	color: var(--vscode-foreground);
+	background-color: var(--vscode-editor-background);
+}
+
+button {
+	border: none;
+	padding: 4px 16px;
+	text-align: center;
+	outline: none;
+	border-radius: 2px;
+	border: 1px solid transparent;
+	cursor: pointer;
+	display: inline-flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	color: white;
+	user-select: none;
+}
+
+button:hover {
+	background-color: var(--vscode-button-hoverBackground);
+}
+
+button:focus {
+	outline: 1px solid var(--vscode-focusBorder);
+	outline-offset: 2px;
+}
+
+button.secondary {
+	color: var(--vscode-button-secondaryForeground);
+	background-color: var(--vscode-button-secondaryBackground);
+}
+
+button.secondary:hover {
+	background-color: var(--vscode-button-secondaryHoverBackground);
+}
+
+input,
+textarea,
+select {
+	font-family: var(--vscode-font-family);
+	font-size: inherit;
+}
+
+input {
+	color: var(--vscode-input-foreground);
+	border: 1px solid var(--vscode-input-border);
+	background-color: var(--vscode-input-background);
+}
+
+input:focus {
+	outline: 1px solid var(--vscode-focusBorder);
+	outline-offset: -1px;
+}
+
+textarea {
+	color: var(--vscode-input-foreground);
+	border: 1px solid var(--vscode-input-border);
+	background-color: var(--vscode-input-background);
+}
+
+textarea:focus {
+	outline: 1px solid var(--vscode-focusBorder);
+	outline-offset: -1px;
+}
+
+select {
+	color: var(--vscode-input-foreground);
+	border: 1px solid var(--vscode-input-border);
+	background-color: var(--vscode-input-background);
+}
+
+select:focus {
+	outline: 1px solid var(--vscode-focusBorder);
+	outline-offset: -1px;
+}
