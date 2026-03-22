@@ -2,7 +2,7 @@
   "name": "axon-api-client",
   "displayName": "Axon Client",
   "description": "A lightweight API testing extension for VS Code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "9b44e0ea-284e-6202-b075-e936e0da1bff",
   "license": "MIT",
   "engines": {
