@@ -12,7 +12,9 @@
     "Testing",
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onView:apiTesterPanel"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/BazilSuhail/axon-extension"
@@ -23,7 +25,8 @@
       {
         "command": "api-tester.openPanel",
         "title": "Open API Tester",
-        "category": "API Tester"
+        "category": "API Tester",
+        "icon": "$(globe)"
       },
       {
         "command": "api-tester.sendRequest",
@@ -31,12 +34,21 @@
         "category": "API Tester"
       }
     ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "api-tester-panel",
+          "title": "API Tester",
+          "icon": "$(globe)"
+        }
+      ]
+    },
     "views": {
-      "explorer": [
+      "api-tester-panel": [
         {
           "id": "apiTesterPanel",
           "name": "API Tester",
-          "when": "true"
+          "type": "webview"
         }
       ]
     }
